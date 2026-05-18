@@ -70,6 +70,7 @@ if st.button("Generate Documentation", type="primary", disabled=not repo_input):
                 data=markdown,
                 file_name="documentation.md",
                 mime="text/markdown",
+                type="primary",
             )
 
             st.divider()
